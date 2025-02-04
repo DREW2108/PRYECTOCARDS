@@ -1,0 +1,19 @@
+/* Estilos para el navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto; /* Permite desplazamiento horizontal si el contenido es demasiado ancho */
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+  }
